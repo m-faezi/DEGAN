@@ -20,7 +20,7 @@ This is a DEGAN implementation based on [Ako](https://lsds.doc.ic.ac.uk/sites/de
 ### Overview
 Decentralized generative adversarial networks architecture with partial gradient exchange.
 <p align="center">
-    <img src="./assets/degan.svg" alt="DEGAN overview" width="93.6%">
+    <img src="./assets/degan.png" alt="DEGAN overview" width="63.6%">
 </p>
 
 ### Quick Start
