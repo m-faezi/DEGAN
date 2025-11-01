@@ -17,6 +17,12 @@ This is a DEGAN implementation based on [Ako](https://lsds.doc.ic.ac.uk/sites/de
         $ sudo apt-get install redis-server -y
         ```
 
+### Overview
+Decentralized generative adversarial networks architecture with partial gradient exchange.
+<p align="center">
+    <img src="./assets/degan.svg" alt="DEGAN overview" width="93.6%">
+</p>
+
 ### Quick Start
 
 ```sh 
