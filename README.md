@@ -3,7 +3,7 @@
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.20.0-FF6F00?style=flat&logo=tensorflow)
 
-This is a DEGAN implementation based on [Ako](https://lsds.doc.ic.ac.uk/sites/default/files/ako-socc16.pdf) (Ako: Decentralised Deep Learning with Partial Gradient Exchange). You can train any DNNs in a decentralized manner without parameter servers. Workers exchange partitioned gradients directly with each other without help of parameter servers and update their own local weights.
+This is a DEGAN ([Faezi et al.](#1)) implementation based on [Ako](https://lsds.doc.ic.ac.uk/sites/default/files/ako-socc16.pdf) (Ako: Decentralised Deep Learning with Partial Gradient Exchange). You can train any DNNs in a decentralized manner without parameter servers. Workers exchange partitioned gradients directly with each other without help of parameter servers and update their own local weights.
 
 ### Installation
     
@@ -46,4 +46,6 @@ $ python parallel.py
     # At worker 2
     $ python redis_ako.py wk 2
     ```
+
+<a id="1">Faezi M. H., Bijani S., & Dolati A. (2021). "DEGAN: Decentralized Generative Adversarial Networks". In: Neurocomputing 419, pp. 335-343. DOI: 10.1016/j.neucom.2020.07.089.</a>
 
