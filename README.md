@@ -1,8 +1,8 @@
 # DEGAN: Decentralized Generative Adversarial Networks
 [![DOI](https://img.shields.io/badge/DOI-10.1016/j.neucom.2020.07.089-000.svg)](https://doi.org/10.1016/j.neucom.2020.07.089)
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.20.0-FF6F00?style=flat&logo=tensorflow)
-![Redis](https://img.shields.io/badge/Redis-7.0+-DC382D?style=flat&logo=redis&logoColor=white)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-Latest-FF6F00?style=flat&logo=tensorflow)](https://www.tensorflow.org/)
+[![Redis](https://img.shields.io/badge/Redis-7.0+-DC382D?style=flat&logo=redis&logoColor=white)](https://redis.io/)
 
 This is a DEGAN ([Faezi et al.](#1)) implementation based on [Ako](https://lsds.doc.ic.ac.uk/sites/default/files/ako-socc16.pdf) (Ako: Decentralised Deep Learning with Partial Gradient Exchange). You can train any DNNs in a decentralized manner without parameter servers. Workers exchange partitioned gradients directly with each other without help of parameter servers and update their own local weights.
 
